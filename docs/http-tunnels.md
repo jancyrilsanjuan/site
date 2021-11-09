@@ -7,7 +7,7 @@ slug: /http-tunnels
 
 To set up a HTTP tunnel to port 8080, request a port forward from port 80 by running the following command:
 ```
-ssh -R 80:localhost:8080 localhost.run
+ssh -R 80:localhost:8084 localhost.run
 ```
 
 localhost.run forwards HTTP traffic down your tunnel to your app, and automatically adds encrypted HTTPS endpoints for your clients to optionally connect to.
